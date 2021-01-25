@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Digital Time</title>
+</head>
+<body>
+    <div class="container">
+        <div class="date-container">
+            <span id="dayOfWeek"></span>
+            <span id="month"></span>
+            <span id="day"></span>
+            <span id="year"></span>
+        </div>
+        <h1>The Time Is</h1>
+        <div class="">
+            <button id="switchFormat">Click to switch time format</button>
+            <div class="time-container" id="twelve-hour-time">
+                <div class="time-element"><p class="lg-text hours" id="hours"></p></div>
+                <div class="time-element"><p class="lg-text minutes"  id="minutes"></p></div>
+                <div class="time-element"><p class="lg-text seconds" id="seconds">0</p></div>
+                <div class="time-element"><p class="lg-text" id="timeFormat"></p></div>
+            </div>
+            <div class="time-container hide" id="twenty-four-hour-time">
+                <div class="time-element"><p class="lg-text hours" id="twenty-four-hours"></p></div>
+                <div class="time-element"><p class="lg-text minutes"  id="twenty-four-minutes"></p></div>
+                <div class="time-element"><p class="lg-text seconds" id="twenty-four-seconds"></p></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
